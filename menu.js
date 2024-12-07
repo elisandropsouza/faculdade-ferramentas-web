@@ -8,6 +8,7 @@ const menuHTML = `<nav>
                     </nav>`
 
 function generateMenu() {
+    // Imprimir o conteudo na tag com id = menu
     document.getElementById('menu').innerHTML = menuHTML
 }
 

@@ -10,6 +10,7 @@ const footerHTML = `
     </footer>
   `
 function generateFooter() {
+  // Imprimir o conteudo na tag com id = footer
   document.getElementById('footer').innerHTML = footerHTML
 }
 
